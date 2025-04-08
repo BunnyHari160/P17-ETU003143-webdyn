@@ -1,0 +1,2 @@
+tout ce qui est jsp ou html
+web.xml aussi

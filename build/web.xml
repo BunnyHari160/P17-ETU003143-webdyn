@@ -1,0 +1,33 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <display-name>Gestion de depense</display-name>
+
+    <!-- Déclaration de la servlet Prevision -->
+    <servlet>
+        <servlet-name>PrevServlet</servlet-name>
+        <servlet-class>PrevServlet</servlet-class>
+    </servlet>
+
+    <!-- Mapping de la servlet -->
+    <servlet-mapping>
+        <servlet-name>PrevServlet</servlet-name>
+        <url-pattern>/PrevServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Déclaration de la servlet Depense -->
+    <servlet>
+        <servlet-name>DepServlet</servlet-name>
+        <servlet-class>DepServlet</servlet-class>
+    </servlet>
+
+    <!-- Mapping de la servlet -->
+    <servlet-mapping>
+        <servlet-name>DepServlet</servlet-name>
+        <url-pattern>/DepServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

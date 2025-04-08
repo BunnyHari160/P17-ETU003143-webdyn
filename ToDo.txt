@@ -1,0 +1,46 @@
+rq rah anao meme user dia 
+
+----------
+
+1- CONNECT AS root
+
+2- CREATE USER ETU003143@localhost identified by 'pjHiUl4';
+
+3- CREATE DATABASE db_S2_ETU003143;
+
+4- grant all on db_S2_ETU003143.* to ETU003143;
+
+----------
+
+
+gestion de depenses
+
+fromulaires
+
+prevision
+champs : 
+    libelle (ex: sakafo)
+    montant (en ariarty)
+    ok
+
+depenses
+champs:
+    libelle
+    montant
+    date (facult)
+    ok
+    + check si la somme peut encore etre reduite
+
+etat
+    tableau (colonnes)
+        prevision
+        depenses
+        reste
+
+protection a la fin si possible 
+
+
+----------------------------------------------------
+
+
+ne pas oublier de changer user et mdp avant deploiement 
