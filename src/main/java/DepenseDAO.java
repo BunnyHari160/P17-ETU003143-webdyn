@@ -9,8 +9,8 @@ import java.util.List;
 
 public class DepenseDAO {
     
-    private static final String URL = "jdbc:mysql://localhost:3306/ db_s2_ETU003143 ";
-    private static final String USER = "ETU003143_tomcat";
+    private static final String URL = "jdbc:mysql://localhost:3306/db_S2_ETU003143 ";
+    private static final String USER = "ETU003143";
     private static final String PASSWORD = "pjHi9Ul4";
 
     public static Connection getConnection() throws SQLException {
